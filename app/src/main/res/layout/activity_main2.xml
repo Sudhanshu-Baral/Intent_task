@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="248dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="172dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="319dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:hint="Name"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="Suspicious0dp" />
+
+        <TextView
+            android:id="@+id/branch"
+            android:layout_width="319dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:hint="Branch"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="Suspicious0dp" />
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="318dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:hint="Year"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="Suspicious0dp" />
+
+        <TextView
+            android:id="@+id/regd"
+            android:layout_width="318dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:hint="Regd.No"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="Suspicious0dp" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
